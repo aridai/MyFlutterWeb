@@ -15,6 +15,9 @@ jobs:
         with:
           channel: 'beta'
 
+      - name: Enable Flutter for Web
+        run: flutter config --enable-web
+
       - name: Check Flutter version
         run: flutter --version
 
